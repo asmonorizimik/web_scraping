@@ -1,0 +1,219 @@
+Q.1. What are the key features of Python?
+
+If it makes for an introductory language to programming, Python must mean something. These are its qualities:
+
+Interpreted
+Dynamically-typed
+Object-oriented
+Concise and simple
+Free
+Has a large community
+
+
+2.The ternary operator in Python is nothing but a one-line version of the if-else statement. It provides a way to write conditional statements in a single line
+It takes binary value(condition) as an input, so it looks similar to an “if-else” condition block
+# tenery operator
+# a,b=2,3
+# min=a if a>b else b
+# print(min)
+
+
+
+3.dentifier: name of the varables
+
+4.What is the pass statement in Python?
+There may be times in our code when we haven’t decided what to do yet, but we must type something for it to be syntactically correct. In such a case, we use the pass statement.
+
+5.To find out which directory in python you are currently in, use the getcwd() method. Cwd is for current working directory in python. This returns the path of the current
+python directory as a string in Python.
+A directory or folder is a collection of files and subdirectories. Python has the os module that provides us with many useful methods to work with directories (and files as well).
+
+
+
+6.How will you remove a duplicate element from a list?
+We can turn it into a set to do that.
+>>> list=[1,2,1,3,4,2]
+>>> set(list)
+{1, 2, 3, 4}
+
+
+
+
+7.AND (&) This performs & on each bit pair.
+>>> 0b110 & 0b010
+2
+
+OR (|) This performs | on each bit pair.
+>>> 3|2
+3
+
+XOR (^) This performs an exclusive-OR operation on each bit pair.
+>>> 3^2
+1
+
+Binary One’s Complement (~) This returns the one’s complement of a value.
+>>> ~2
+-3
+
+Binary Left-Shift (<<) This shifts the bits to the left by the specified amount.
+>>> 1<<2
+4
+
+Here, 001 was shifted to the left by two places to get 100, which is binary for 4.
+
+Binary Right-Shift (>>)
+>>> 4>>2
+1
+
+
+8.What is a docstring?
+
+A docstring is a documentation string that we use to explain what a construct does. We place it as the first thing under a function, class, or a method, to describe what it does. We declare a docstring using three sets of single or double-quotes.
+>>> def sayhi():
+"""
+The function prints Hi
+"""
+print("Hi")
+>>> sayhi()
+
+
+
+9.Write code to print only upto the letter t.
+>>> i=0
+>>> while s[i]!='t':
+print(s[i],end=’’)
+i+=1
+I love Py
+
+
+
+10. Write code to print everything in the string except the spaces.
+>>> for i in s:
+if i==' ': continue
+print(i,end='')
+IlovePython
+
+
+
+
+11.What is the purpose of bytes() in Python?
+bytes() is a built-in function in Python that returns an immutable bytes object. Let’s take an example.
+>>> bytes([2,4,8])
+b’\x02\x04\x08′
+>>> bytes(5)
+b’\x00\x00\x00\x00\x00′
+>>> bytes('world','utf-8')
+b’world’
+
+
+
+12.Create a new list to convert the following list of number strings to a list of numbers.
+nums=[‘22’,’68’,’110’,’89’,’31’,’12’]
+We will use the int() function with a list comprehension to convert these strings into integers and put them in a list.
+>>> [int(i) for i in nums]
+[22, 68, 110, 89, 31, 12]
+
+
+13.How many types of objects does Python support?
+Objects in Python are mutable and immutable. Let’s talk about these.
+Immutable objects- Those which do not let us modify their contents. Examples of these will be tuples, booleans, strings, integers, floats, and complexes. Iterations on such objects are faster.
+>>> tuple=(1,2,4)
+>>> tuple
+(1, 2, 4)
+>>> 2+4j
+(2+4j)
+Mutable objects – Those that let you modify their contents. Examples of these are lists, sets, and dicts. Iterations on such objects are slower.
+>>> [2,4,9]
+[2, 4, 9]
+>>> dict1={1:1,2:2}
+>>> dict1
+{1: 1, 2: 2}
+While two equal immutable objects’ reference variables share the same address, it is possible to create two mutable objects with the same content.
+
+
+
+14.What makes Python object-oriented?
+Again the frequently asked Python Interview Question
+Python is object-oriented because it follows the Object-Oriented programming paradigm. 
+This is a paradigm that revolves around classes and their instances (objects). With this kind of programming, we have the following features:
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Data hiding
+
+
+
+
+
+2. Explain Web Scraping Procedure.
+There are multiple steps involved in web scraping:
+Reading data (source code of the web page URL) from the website
+Parsing this data based on the HTML tags
+Storing or displaying desired scraped information
+Scraped data is very useful in data analytics.
+
+
+
+Q. What are the Python libraries you have used for web scrapping?
+There are many Python libraries are available for web scrapping like…
+Beautiful Soap and Scrappy are the two most useful Python modules for scrapping web information.
+The request module is to read the data from internet web pages.
+JSON library is used to dump, to read and to write the JSON formatting objects.
+
+
+
+Q. What is the purpose of the request module in Python?
+The request module is used to read the data from the internet web pages. 
+You have to pass the URL from where you want to read the data along with the HTTP request method, 
+header information like encoding method, response data format, and session cookies…
+
+In the HTTP response, you get data from the website. Data can be in any format like string, 
+JSON, XML and YAML; based on data format mentioned in the request and server response.
+
+
+
+7. What are the different HTTP response status codes?
+When you send the HTTP request to read the data from the internet, you get the response along with the different response status.
+
+Every status code has its meaning.
+
+get:It is use to access resources amd to know the state of particular resources
+head: This method request the header which is required for the client and server communication.
+post: It performs operations on a resource like creating and updating resource properties
+
+
+How to deal if your IP address is blocked by the website?
+ =>Proxy IPs/servers can be used to access the web pages if your IP address is blocked.
+ Usually, data analytics companies web scraps millions of web pages. Many times their IP addresses get blocked. 
+ To overcome this they use a VPN (Virtual Private Network). There are many VPN service providers.
+
+How does VPN work?
+You send a request to the VPN server. 
+It reads the data from the website. VPN sends back the response to your IP address.
+You can see, VPN actually hides your IP address from the website server and they will never come to know about your 
+IP address. VPN has a pool of IP addresses. Even if the VPN IP address gets blocked, they can use another IP address from the pool.
+
+
+Q.Write a Python program to extract h1 tag from example.com.
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+html = urlopen('http://www.example.com/')
+bsh = BeautifulSoup(html.read(), 'html.parser')
+print(bsh.h1)
+
+
+urllib.request — Extensible library for opening URLs.
+The urllib.request module defines functions and classes which help in 
+opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.
+
+
+
+Q. What is a robots.txt file? 
+Robots.txt is a text file that tells crawlers, bots, or spiders if a website could be or how it should be scrapped as 
+specified by the website owner. It is critical to understand the robots.txt file to prevent being blocked while web scraping.
+
+
+
+
+

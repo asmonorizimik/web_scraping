@@ -1,0 +1,44 @@
+Web scraping is the process of collecting and parsing raw data from the Web, 
+and the Python community has come up with some pretty powerful web scraping tools.
+*allow you to gather any information from any websites
+
+parsing: defines as the processing of a piece of python program and converting
+ these into machine language. 
+In general, we can say parse is a command for dividing the given program code into a small 
+piece of code for analyzing the correct syntax
+
+
+beautifulsoup: Beautiful Soup is a Python library for pulling data out of HTML and XML files.
+BeautifulSoup library is used extract information from the HTML and XML files
+.a.get_text(): The get_text() method returns the text inside the Beautiful Soup or Tag object as a single Unicode string.
+
+
+Steps:-
+Import necessary modules.
+Load an HTML document.
+Pass the HTML document into the Beautifulsoup() function.
+Get data using functions "find()" and "find_all()" using any tag inside of the function. e.g. :- find("h2")
+
+get(): # The get() method sends a GET request to the specified url.
+
+find(): The find() method returns the value of the first element that passes a test.
+
+find_all():find_all() returns all the tags and strings that match your filters.
+
+.span.get_text():
+ “get_text()” is used to trim the pre/post span tags we are getting with each iteration of finding titles.
+span() returns both start and end indexes in a single tuple
+
+.strong.get_text():
+
+
+ethical hacking: Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, 
+application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers.
+
+Web scraping is a method of extracting the large amounts of information which is available on the websites and saving onto 
+the local machine or onto the database tables.
+Modules for web scraping;
+1. Urllib2
+2. Scrappy
+3. Pyquery
+4. BeautifulSoup

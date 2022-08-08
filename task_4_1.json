@@ -1,0 +1,100 @@
+{
+     "@context": "https://schema.org",
+     "@type": "Movie",
+     "url": "/title/tt0066763/",
+     "name": "Anand",
+     "image": "https://m.media-amazon.com/images/M/MV5BNmZkMTMzNmEtMWU5NC00MjEzLWE5MzktYzRlMmQyMzk0YmM1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+     "description": "The story of a terminally ill man who wishes to live life to the fullest before the inevitable occurs, as told by his best friend.",
+     "review": {
+          "@type": "Review",
+          "itemReviewed": {
+               "@type": "CreativeWork",
+               "url": "/title/tt0066763/"
+          },
+          "author": {
+               "@type": "Person",
+               "name": "peanutz454"
+          },
+          "dateCreated": "2004-01-31",
+          "inLanguage": "English",
+          "name": "Hrishikesh Mukherjee&apos;s best work...",
+          "reviewBody": "Hrishikesh Mukherjee has enriched Hindi cinema with such masterpieces as Gol Maal, Chupke Chupke, Mili, Abhimaan, Bawarchi, Khubsoorat. All of them relatively low on budget and high in quality. To think of it that he was directing at the breakneck speed of more than two movies a year. Mukherjee&apos;s movies were light hearted comic dramas, Anand too is comical at times. His other movies featured people struggling to keep a job, or fancying a marriage to film star, or struggling to keep up with a practical joke, Anand on the other hand is about struggling to live the short life you have.\n\nAnand is without doubt the best (and most popular) of Mukherjee&apos;s works. Rajesh Khanna&apos;s role as Anand, a patient with &apos;Lymphosarcoma (cancer) of the intestine&apos; is probably his best acting ever. How Anand fights cancer brings tears to your eyes, even if you see this movie for the umpteenth. You laugh with Anand, you cry with him, you sing with him, you live the life he lives. Amitabh Bachchan&apos;s (Dr Banerjee) role of his square faced Bengali doctor, in a role so different from the roles that made him a superstar, (Bachchan was voted the greatest actor ever in the online BBC pole, though he played it down saying - this proves Indians do not have much to do on Internet) Amitabh does a wonderful job. Being a Bollywood movie that it is, there are some beautiful songs. I wonder - a Hollywood movie with songs is called a musical and all Bollywood movies are characterised as song and dance sequences. This is a stereotype that a lot of Hindi Movies won&apos;t fit into (then there are a lot that will). Anand for one has no dance sequence. Lot of beautiful songs though, that help the narrative and in character development like acting can&apos;t.\n\nFor example you never see Anand unhappy for a second. You think he has no sorrows. Even the name of his illness is something to enjoy. Lymphosarcoma of the intestine is quite a name to have for a disease, Anand says in his ever cheerful voice (the word Anand means pleasure btw). Deep inside Anand knows he has limited time in the world and he wants to fill every life that he touches with happiness. In the process he starts growing closer to you. He talks to a complete stranger on the street like he knew him forever. He shares the sorrows of people he meets, gives them reason to smile. But never will let you into his own sad past. It is only through a song (a sort of soliloquy) he sings that you get a bit of information about his sad past - he himself wont share it with you.\n\nThe movie won the 1972 Filmfare Award. One of the best works to come out of Bollywood.",
+          "reviewRating": {
+               "@type": "Rating",
+               "worstRating": 1,
+               "bestRating": 10,
+               "ratingValue": 10
+          }
+     },
+     "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingCount": 33685,
+          "bestRating": 10,
+          "worstRating": 1,
+          "ratingValue": 8.1
+     },
+     "contentRating": "U",
+     "genre": [
+          "Drama",
+          "Musical"
+     ],
+     "datePublished": "1971-03-12",
+     "keywords": "doctor,terminal illness,joy of life,character name as title,forename as title",
+     "trailer": {
+          "@type": "VideoObject",
+          "name": "Anand trailer",
+          "embedUrl": "/video/imdb/vi3002710809",
+          "thumbnail": {
+               "@type": "ImageObject",
+               "contentUrl": "https://m.media-amazon.com/images/M/MV5BODU1ZDYyYjAtNWQwZS00M2Y1LThhZDYtOTlmMmFlOWZlMTBmXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg"
+          },
+          "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BODU1ZDYyYjAtNWQwZS00M2Y1LThhZDYtOTlmMmFlOWZlMTBmXkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg",
+          "description": "The story of a terminally ill man who wishes to live life to the full before the inevitable occurs, as told by his best friend."
+     },
+     "actor": [
+          {
+               "@type": "Person",
+               "url": "/name/nm0004435/",
+               "name": "Rajesh Khanna"
+          },
+          {
+               "@type": "Person",
+               "url": "/name/nm0000821/",
+               "name": "Amitabh Bachchan"
+          },
+          {
+               "@type": "Person",
+               "url": "/name/nm0764407/",
+               "name": "Sumita Sanyal"
+          }
+     ],
+     "director": [
+          {
+               "@type": "Person",
+               "url": "/name/nm0611531/",
+               "name": "Hrishikesh Mukherjee"
+          }
+     ],
+     "creator": [
+          {
+               "@type": "Organization",
+               "url": "/company/co0044508/"
+          },
+          {
+               "@type": "Person",
+               "url": "/name/nm0611531/",
+               "name": "Hrishikesh Mukherjee"
+          },
+          {
+               "@type": "Person",
+               "url": "/name/nm0347899/",
+               "name": "Gulzar"
+          },
+          {
+               "@type": "Person",
+               "url": "/name/nm0611520/",
+               "name": "D.N. Mukherjee"
+          }
+     ],
+     "duration": "PT2H2M"
+}

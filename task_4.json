@@ -1,0 +1,29 @@
+{
+     "name": "Anand",
+     "director": {
+          "name": "Hrishikesh Mukherjee"
+     },
+     "country": "India",
+     "language": "Hindi",
+     "poster": "https://www.imdb.com/title/tt0066763/mediaviewer/rm73146368/?ref_=tt_ov_i",
+     "summary": "The story of a terminally ill man who wishes to live life to the fullest before the inevitable occurs, as told by his best friend.",
+     "runtime": "PT2H2M",
+     "genre": [
+          "Drama",
+          "Musical"
+     ],
+     "actors": [
+          {
+               "url": "/name/nm0004435/",
+               "name": "Rajesh Khanna"
+          },
+          {
+               "url": "/name/nm0000821/",
+               "name": "Amitabh Bachchan"
+          },
+          {
+               "url": "/name/nm0764407/",
+               "name": "Sumita Sanyal"
+          }
+     ]
+}
